@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/personal_portfolio_v2.git/static/css/main.2c9d2b5f.css",
+    "main.js": "/personal_portfolio_v2.git/static/js/main.5ed70771.js",
+    "static/js/453.8c5ae623.chunk.js": "/personal_portfolio_v2.git/static/js/453.8c5ae623.chunk.js",
+    "static/media/Resume.pdf": "/personal_portfolio_v2.git/static/media/Resume.45664b4264dbb2b34c44.pdf",
+    "static/media/curriculum-vitae.png": "/personal_portfolio_v2.git/static/media/curriculum-vitae.9cecdf1ba7106a884815.png",
+    "static/media/img_portfo_web.jpg": "/personal_portfolio_v2.git/static/media/img_portfo_web.efdc776ce0995017c6db.jpg",
+    "static/media/img_ecommerce.jpg": "/personal_portfolio_v2.git/static/media/img_ecommerce.249a8059955bed9a032e.jpg",
+    "static/media/img_portfo_design.jpg": "/personal_portfolio_v2.git/static/media/img_portfo_design.09294d3c7d988afc85f9.jpg",
+    "static/media/img_3d_design.jpg": "/personal_portfolio_v2.git/static/media/img_3d_design.5df8c8ba55cca406cd71.jpg",
+    "static/media/img_3d_web.jpg": "/personal_portfolio_v2.git/static/media/img_3d_web.f63a317b8a40ff25dead.jpg",
+    "static/media/img_profile.jpg": "/personal_portfolio_v2.git/static/media/img_profile.26c1735481d77344e05b.jpg",
+    "static/media/img_stock.jpg": "/personal_portfolio_v2.git/static/media/img_stock.dd2abc3c9e772e935667.jpg",
+    "static/media/img_logo.jpg": "/personal_portfolio_v2.git/static/media/img_logo.2da1f762a5ec0d03cc31.jpg",
+    "static/media/img_todo_web.jpg": "/personal_portfolio_v2.git/static/media/img_todo_web.dd819d1d2e354b36e922.jpg",
+    "static/media/img_goldenfish.jpg": "/personal_portfolio_v2.git/static/media/img_goldenfish.32b0725eabe2871c8c1e.jpg",
+    "index.html": "/personal_portfolio_v2.git/index.html",
+    "main.2c9d2b5f.css.map": "/personal_portfolio_v2.git/static/css/main.2c9d2b5f.css.map",
+    "main.5ed70771.js.map": "/personal_portfolio_v2.git/static/js/main.5ed70771.js.map",
+    "453.8c5ae623.chunk.js.map": "/personal_portfolio_v2.git/static/js/453.8c5ae623.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c9d2b5f.css",
+    "static/js/main.5ed70771.js"
+  ]
+}
