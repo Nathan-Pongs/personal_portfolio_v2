@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/personal_portfolio_v2/static/css/main.2c9d2b5f.css",
-    "main.js": "/personal_portfolio_v2/static/js/main.cb285d90.js",
+    "main.css": "/personal_portfolio_v2/static/css/main.318305bc.css",
+    "main.js": "/personal_portfolio_v2/static/js/main.3a492ac6.js",
     "static/js/453.8c5ae623.chunk.js": "/personal_portfolio_v2/static/js/453.8c5ae623.chunk.js",
-    "static/media/Resume.pdf": "/personal_portfolio_v2/static/media/Resume.45664b4264dbb2b34c44.pdf",
-    "static/media/curriculum-vitae.png": "/personal_portfolio_v2/static/media/curriculum-vitae.9cecdf1ba7106a884815.png",
+    "static/media/E-commerceSystem.rar": "/personal_portfolio_v2/static/media/E-commerceSystem.72352032d1ae2154a3c0.rar",
+    "static/media/PONGS_resume.pdf": "/personal_portfolio_v2/static/media/PONGS_resume.baf001d248ab36e8ab99.pdf",
+    "static/media/stock_manangement.rar": "/personal_portfolio_v2/static/media/stock_manangement.c6b3ebc6de0fad107941.rar",
     "static/media/img_portfo_web.jpg": "/personal_portfolio_v2/static/media/img_portfo_web.efdc776ce0995017c6db.jpg",
     "static/media/img_ecommerce.jpg": "/personal_portfolio_v2/static/media/img_ecommerce.249a8059955bed9a032e.jpg",
     "static/media/img_portfo_design.jpg": "/personal_portfolio_v2/static/media/img_portfo_design.09294d3c7d988afc85f9.jpg",
@@ -16,12 +17,12 @@
     "static/media/img_todo_web.jpg": "/personal_portfolio_v2/static/media/img_todo_web.dd819d1d2e354b36e922.jpg",
     "static/media/img_goldenfish.jpg": "/personal_portfolio_v2/static/media/img_goldenfish.32b0725eabe2871c8c1e.jpg",
     "index.html": "/personal_portfolio_v2/index.html",
-    "main.2c9d2b5f.css.map": "/personal_portfolio_v2/static/css/main.2c9d2b5f.css.map",
-    "main.cb285d90.js.map": "/personal_portfolio_v2/static/js/main.cb285d90.js.map",
+    "main.318305bc.css.map": "/personal_portfolio_v2/static/css/main.318305bc.css.map",
+    "main.3a492ac6.js.map": "/personal_portfolio_v2/static/js/main.3a492ac6.js.map",
     "453.8c5ae623.chunk.js.map": "/personal_portfolio_v2/static/js/453.8c5ae623.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c9d2b5f.css",
-    "static/js/main.cb285d90.js"
+    "static/css/main.318305bc.css",
+    "static/js/main.3a492ac6.js"
   ]
 }
