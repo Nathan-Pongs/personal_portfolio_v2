@@ -1,3 +1,4 @@
+import Resume from '../img/PONGS_resume.pdf';
 const About = () => {
     return (
         <div className="h-full justify-center text-center">
@@ -6,7 +7,7 @@ const About = () => {
                 <p className="md:text-lg text-xs">I’m a 3rd year IT Engineering student at Royal University of Phnom Penh. I spend most of my days working on UX/UI Designing, Web Development, Graphic Designing. I’m eager to learn new things and seeking for Individual or Teamwork Projects.</p>
                 <div className="pt-8 md:text-sm text-xs">
                     <button className="bg-[#070707] text-[#EBDDDD] font-semibold px-10 py-2 rounded-tl-[40px] rounded-br-[40px] shadow-lg hover:text-[#106B92]">
-                        <a>View Full Resume</a>
+                    <a target="blank" href={Resume}>View full resume</a>
                     </button>
                 </div>
             </div>

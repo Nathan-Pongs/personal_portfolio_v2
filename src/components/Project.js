@@ -13,6 +13,8 @@ import ImgLogo from '../img/img_logo.jpg';
 import ImgPortfoDesign from '../img/img_portfo_design.jpg';
 import ImgGoldenFish from '../img/img_goldenfish.jpg';
 import ImgStock from '../img/img_stock.jpg';
+import ecomSys from '../img/E-commerceSystem.rar';
+import stock from '../img/stock_manangement.rar';
 
 const webDevelopment = [
   {
@@ -22,7 +24,9 @@ const webDevelopment = [
         name: "3D Marketplace info Website",
         desc: "I made this info website for a presentation to my instructor of the project practicum.",
         btn_github: "View Github",
-        btn_demo: "View demo"
+        btn_demo: "View demo",
+        view:"https://github.com/Nathan-Pongs/3dmatics",
+        link: "https://nathan-pongs.github.io/3dmatics/",
       }
     ],
   },
@@ -33,7 +37,9 @@ const webDevelopment = [
         name: "My first portfolio",
         desc: "I created my first portfolio to be demonstrated for the interview.",
         btn_github: "View Github",
-        btn_demo: "View demo"
+        btn_demo: "View demo",
+        view:"https://github.com/Nathan-Pongs/Pongs-portfolio",
+        link: "https://nathan-pongs.github.io/Pongs-portfolio/",
       }
     ],
   },
@@ -44,7 +50,9 @@ const webDevelopment = [
         name: "To-Do application",
         desc: "I created this application to practice my development skills",
         btn_github: "View Github",
-        btn_demo: "View demo"
+        btn_demo: "View demo",
+        view:"https://github.com/Nathan-Pongs/todo-app",
+        link: "https://nathan-pongs.github.io/todo-app/",
       }
     ],
   },
@@ -57,7 +65,8 @@ const UxDesign = [
       {
         name: "3D Marketplace WEB DESIGN",
         desc: "I designed this project to be a structure for website development",
-        btn_design: "View Design"
+        btn_design: "View Design",
+        link: "https://www.figma.com/proto/znIOjvgnWGujpMZDAAslkw/Project-Practicum?node-id=14-4693&starting-point-node-id=14%3A4693&t=khV0PuBWZ267nHcf-1"
       }
     ],
   },
@@ -67,7 +76,8 @@ const UxDesign = [
       {
         name: "My 2nd portfolio design",
         desc: "I design my 2nd personal portfolio to be demonstrated at an interviewing.",
-        btn_design: "View Design"
+        btn_design: "View Design",
+        link: "https://www.figma.com/proto/brdrzkPmgFyXuUQNkSe2OU/personal_website?node-id=1-2&t=tPDC6g7pFvSBnc7b-1"
       }
     ],
   },
@@ -79,7 +89,8 @@ const GraphicDesign = [
       {
         name: "3D Marketplace WEB DESIGN",
         desc: "I designed this project to be a structure for website development",
-        btn_download: "Download"
+        btn_download: "Download",
+        download :ImgGoldenFish
       }
     ],
   },
@@ -89,7 +100,8 @@ const GraphicDesign = [
       {
         name: "P&P online store",
         desc: "I created this logo to identify my business page.",
-        btn_download: "Download"
+        btn_download: "Download",
+        download : ImgLogo
       }
     ],
   },
@@ -102,7 +114,9 @@ const AdditionalProject = [
         name: "JAVA E-COMMERCE PROJECT",
         desc: "I created this project to submit for a final assignment of the JAVA programming.",
         btn_download: "Download",
-        btn_github : "View Github"
+        btn_github : "View Github",
+        view: "https://github.com/Nathan-Pongs/E-commerceSystem-Java",
+        download: ecomSys
       }
     ],
   },
@@ -110,10 +124,12 @@ const AdditionalProject = [
     icon: ImgStock,
     skills: [
       {
-        name: "C++ MANAGEMENT SYSTEM",
+        name: "C++ STOCK MANAGEMENT SYSTEM",
         desc: "I created this project to submit for a final assignment of the C++ programming.",
         btn_download: "Download",
-        btn_github : "View Github"
+        btn_github : "View Github",
+        view : "https://github.com/Nathan-Pongs/Stock_management-cpp",
+        download: stock
       }
     ],
   },
@@ -144,8 +160,8 @@ const Project = () => {
                             >                  
                             <p className="text-xl font-semibold">{skill.name}</p>
                             <p>{skill.desc}</p>
-                            <button className="bg-[#2C2C2C] text-white p-2 m-5"><a href="https://github.com/Nathan-Pongs/3dmatics">{skill.btn_github}</a></button>
-                            <button className="bg-[#2C2C2C] text-white p-2"><a href="https://nathan-pongs.github.io/3dmatics/">{skill.btn_demo}</a></button>
+                            <button className="bg-[#2C2C2C] text-white p-2 m-5"><a href={skill.view}>{skill.btn_github}</a></button>
+                            <button className="bg-[#2C2C2C] text-white p-2"><a href={skill.link}>{skill.btn_demo}</a></button>
                         </div>
                     ))}
                     </div>
@@ -187,8 +203,8 @@ const Project = () => {
                                 >                  
                                     <p className="text-xl font-semibold">{skill.name}</p>
                                     <p>{skill.desc}</p>
-                                    <button className="bg-[#2C2C2C] text-white p-2 m-5"><a>{skill.btn_github}</a></button>
-                                    <button className="bg-[#2C2C2C] text-white p-2"><a>{skill.btn_demo}</a></button>
+                                    <button className="bg-[#2C2C2C] text-white p-2 m-5"><a href={skill.view}>{skill.btn_github}</a></button>
+                                    <button className="bg-[#2C2C2C] text-white p-2"><a href={skill.link}>{skill.btn_demo}</a></button>
                                 </div>
                             ))}
                             </div>
@@ -222,7 +238,7 @@ const Project = () => {
                         >                  
                           <p className="text-xl font-semibold">{skill.name}</p>
                           <p>{skill.desc}</p>
-                          <button className="bg-[#2C2C2C] text-white p-2 m-5"><a>{skill.btn_design}</a></button>
+                          <button className="bg-[#2C2C2C] text-white p-2 m-5"><a href={skill.link}>{skill.btn_design}</a></button>
                         </div>
                     ))}
                     </div>
@@ -264,7 +280,7 @@ const Project = () => {
                                 >                  
                                     <p className="text-xl font-semibold">{skill.name}</p>
                                     <p>{skill.desc}</p>
-                                    <button className="bg-[#2C2C2C] text-white p-2 m-5"><a>{skill.btn_design}</a></button>
+                                    <button className="bg-[#2C2C2C] text-white p-2 m-5"><a href={skill.link}>{skill.btn_design}</a></button>
                                 </div>
                             ))}
                             </div>
@@ -297,7 +313,7 @@ const Project = () => {
                         >                  
                         <p className="text-xl font-semibold">{skill.name}</p>
                         <p>{skill.desc}</p>
-                        <button className="bg-[#2C2C2C] text-white p-2 m-5"><a>{skill.btn_download}</a></button>
+                        <button className="bg-[#2C2C2C] text-white p-2 m-5"><a download={skill.download}>{skill.btn_download}</a></button>
                         </div>
                     ))}
                     </div>
@@ -370,10 +386,10 @@ const Project = () => {
                         key={skillIndex}
                         className="flex flex-col justify-center items-center"
                         >                  
-                        <p className="text-xl font-semibold">{skill.name}</p>
-                        <p>{skill.desc}</p>
-                        <button className="bg-[#2C2C2C] text-white p-2 m-5"><a>{skill.btn_download}</a></button>
-                        <button className="bg-[#2C2C2C] text-white p-2"><a>{skill.btn_github}</a></button>
+                          <p className="text-xl font-semibold">{skill.name}</p>
+                          <p>{skill.desc}</p>
+                          <button className="bg-[#2C2C2C] text-white p-2 m-5"><a href={skill.download}>{skill.btn_download}</a></button>
+                          <button className="bg-[#2C2C2C] text-white p-2"><a href={skill.view}>{skill.btn_github}</a></button>
                         </div>
                     ))}
                     </div>
@@ -415,8 +431,8 @@ const Project = () => {
                                 >                  
                                     <p className="text-xl font-semibold">{skill.name}</p>
                                     <p>{skill.desc}</p>
-                                    <button className="bg-[#2C2C2C] text-white p-2 m-5"><a>{skill.btn_download}</a></button>
-                                    <button className="bg-[#2C2C2C] text-white p-2"><a>{skill.btn_github}</a></button>
+                                    <button className="bg-[#2C2C2C] text-white p-2 m-5"><a href={skill.download}>{skill.btn_download}</a></button>
+                                    <button className="bg-[#2C2C2C] text-white p-2"><a href={skill.view}>{skill.btn_github}</a></button>
                                 </div>
                             ))}
                             </div>

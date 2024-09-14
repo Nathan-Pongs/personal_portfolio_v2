@@ -25,7 +25,7 @@ const Footer = () => {
                         className="w-8 h-8"
                     />
                     </a>
-                    <a href="https://www.facebook.com/" className="text-white hover:text-gray-300">
+                    <a href="https://web.facebook.com/konsva.jounoir" className="text-white hover:text-gray-300">
                         <img
                             src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"
                             alt="Facebook"
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
             </div>
             <h1 className="pt-5 text-white">#Soryapongs.t@gmail.com</h1>
-            <h1 className="pt-5 text-black font-semibold">@THAN SORYAPONGS 2024</h1>
+            <h1 className="pt-10 text-black font-semibold">@THAN SORYAPONGS 2024</h1>
         </div>
     )
 }

@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Squash as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
-import CV from "../img/curriculum-vitae.png";
-import Resume from "../img/Resume.pdf";
+import Resume from "../img/PONGS_resume.pdf";
 
 const tabs = ["Home", "About", "Skills", "Projects", "Contact"];
 
@@ -115,7 +114,7 @@ const Header = () => {
               </li>
             ))}
             <button className="bg-[#070707] text-[#EBDDDD] font-semibold mt-10 px-10 py-2 rounded-tl-[40px] rounded-br-[40px] shadow-lg hover:text-[#106B92]">
-              <a>Resume</a>
+            <a target="blank" href={Resume}>Resume</a>
             </button>
           </ul>
         </div>

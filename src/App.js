@@ -25,7 +25,7 @@ function App() {
           <section id="projects" className="h-auto pb-20 bg-white">
             <Project />
           </section>
-          <section id="contact" className="h-[250px] bg-[#004068]">
+          <section id="contact" className="h-[230px] bg-[#004068]">
             <Footer />
           </section>
         </div>

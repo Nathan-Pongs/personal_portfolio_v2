@@ -1,5 +1,6 @@
 import React from "react";
 import profile from '../img/img_profile.jpg';
+import Resume from '../img/PONGS_resume.pdf';
 const Banner = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
@@ -31,7 +32,7 @@ const Banner = () => {
                 className="w-8 h-8"
               />
             </a>
-            <a href="#" className="text-white hover:text-gray-300">
+            <a href="https://web.facebook.com/konsva.jounoir" className="text-white hover:text-gray-300">
               <img
                 src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"
                 alt="Facebook"
@@ -41,7 +42,7 @@ const Banner = () => {
           </div>
           <div className="md:pt-8 pt-[10px] hidden md:block">
             <button className="bg-[#070707] text-[#EBDDDD] font-semibold px-10 py-2 rounded-tl-[40px] rounded-br-[40px] shadow-lg hover:text-[#106B92]">
-              <a>Resume</a>
+              <a target="blank" href={Resume}>Resume</a>
             </button>
           </div>
         </div>
