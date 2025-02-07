@@ -21,7 +21,7 @@ const skillsData = [
     ],
   },
   {
-    category: "Web Development",
+    category: "Front-End",
     icon: "https://img.icons8.com/?size=100&id=2778&format=png&color=000000",
     skills: [
       {
@@ -35,6 +35,10 @@ const skillsData = [
       {
         name: "JavaScript",
         icon: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+      },
+      {
+        name: "JQuery",
+        icon: "https://img.icons8.com/?size=100&id=XH6rVkDQCZ9U&format=png&color=000000",
       },
       {
         name: "React JS",
@@ -51,16 +55,32 @@ const skillsData = [
     ],
   },
   {
-    category: "Graphic Design",
+    category: "Back-End",
     icon: "https://img.icons8.com/?size=100&id=lBuqhXfGV2RT&format=png&color=000000",
     skills: [
       {
-        name: "Photoshop",
-        icon: "https://img.icons8.com/?size=100&id=13677&format=png&color=000000",
+        name: "ExpressJS",
+        icon: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
       },
       {
-        name: "Illustrator",
-        icon: "https://img.icons8.com/?size=100&id=13631&format=png&color=000000",
+        name: "NodeJS",
+        icon: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+      },
+      {
+        name: "NextJS",
+        icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+      },
+      {
+        name: "Laravel",
+        icon: "https://img.icons8.com/?size=100&id=lRjcvhvtR81o&format=png&color=000000",
+      },
+      {
+        name: "MongoDB",
+        icon: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000",
+      },
+      {
+        name: "MySQL",
+        icon: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
       },
     ],
   },
@@ -77,7 +97,7 @@ const Skills = () => {
         {skillsData.map((category, index) => (
           <div
             key={index}
-            className="border-[#0452B0] border-2 p-6 rounded-lg shadow-lg w-[350px] md:w-1/3 h-[450px]"
+            className="border-[#0452B0] border-2 p-6 rounded-lg shadow-lg w-[350px] md:w-1/3 h-[500px]"
           >
             <h2 className="text-xl font-bold mb-4 flex items-center">
               <img src={category.icon} alt={category.category} className="w-10 mr-2" />
@@ -99,7 +119,7 @@ const Skills = () => {
       </div>
 
       {/* Swiper for Mobile Screens */}
-      <div className="lg:hidden w-full">
+      <div className="lg:hidden w-full px-10">
         <Swiper
           modules={[Pagination]}
           pagination={{ clickable: true }}
@@ -117,7 +137,7 @@ const Skills = () => {
         >
           {skillsData.map((category, index) => (
             <SwiperSlide key={index} className="flex items-center justify-center">
-              <div className="border-[#0452B0] border-2 p-6 rounded-lg shadow-lg w-full h-[60vh] flex flex-col items-center">
+              <div className="border-[#0452B0] border-2 p-6 rounded-lg shadow-lg w-full h-[75vh] flex flex-col items-center">
                 <div className="flex items-center justify-center mb-4">
                   <img className="w-[50px] mr-4" src={category.icon} alt={`${category.category} icon`} />
                   <h1 className="text-xl font-bold">{category.category}</h1>

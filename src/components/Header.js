@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Squash as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
-import Resume from "../img/PONGS_resume.pdf";
 
 const tabs = ["Home", "About", "Skills", "Projects", "Contact"];
 
@@ -113,9 +112,6 @@ const Header = () => {
                 </a>
               </li>
             ))}
-            <button className="bg-[#070707] text-[#EBDDDD] font-semibold mt-10 px-10 py-2 rounded-tl-[40px] rounded-br-[40px] shadow-lg hover:text-[#106B92]">
-            <a target="blank" href={Resume}>Resume</a>
-            </button>
           </ul>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import './App.css';
 import React from "react";
 import AnimatedMatrix from "./components/AnimatedMatrix";
 import Header from "./components/Header";
